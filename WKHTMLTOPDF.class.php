@@ -151,7 +151,7 @@ class WKHTMLTOPDF {
      * header at the beginning of each page) on each page. However wkhtmltopdf does support force 
      * page break (using css) and therefore developers can handle long tables by inserting a force page
      * break where appropriate. This works well for a static table where the developers know for sure
-     * that thier table is going to take 'X' number of pages. But it does not work when the table is 
+     * that their table is going to take 'X' number of pages. But it does not work when the table is 
      * dynamic and the developers don't exactly know how many pages their table will take. This is the main 
      * reason for me to write this PHP interface for wkhtmltopdf so that it can automatically break a 
      * long table properly (with header) on each page. This is done by simply counting how many rows
